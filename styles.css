@@ -1,0 +1,18 @@
+body{
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+#container{
+    display: grid;
+    grid-template-columns: 1200px;
+    grid-template-rows: 200px 200px 200px;
+}
+#container > #yellow-box{
+    background-color: #FFB81C;
+}
+#container > #green-box{
+    background-color: #046A38;
+}
+#container > #red-box{
+    background-color: #BE3A34;
+}
